@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+
+<body>
+
+<!-- PASSWORD -->
+<div id="passwordScreen">
+  <h2>Enter Secret Password ❤️</h2>
+  <input type="password" id="passInput">
+  <button onclick="checkPassword()">Enter</button>
+</div>
+
+<!-- INTRO -->
+<div id="cinematicIntro">
+  <canvas id="spaceCanvas"></canvas>
+  <div id="introText">
+    <h1 class="introLine">My dear Sandhya...❤️</h1>
+    <h1 class="introLine">In a world full of moments...</h1>
+    <h1 class="introLine">One heart chose another...</h1>
+    <h1 class="introLine">And that heart is yours ❤️</h1>
+  </div>
+</div>
+
+<canvas id="petalCanvas"></canvas>
+<div id="heart3DContainer"></div>
+
+<!-- MAIN -->
+<div class="container" id="main">
+<h1>Will you be my Valentine <br> <span class="name">SANDHYA ROHITH</span> ❤️</h1>
+<button id="yesBtn">Yes 💖</button>
+<button id="noBtn">No 😜</button>
+</div>
+
+<!-- MESSAGE -->
+<div class="container" id="message">
+<h2>❤️ Hello My Love ❤️</h2>
+
+<h2>
+சந்தியா❤️, என் இருண்ட நாட்களை ஒளிரச் செய்யும் ஒளி நீ தான்;
+என் ஆன்மாவுக்கு ஆறுதலாகவும் வெப்பமாகவும் இருப்பது உன் அன்பு தான். 🌹 ❤️
+</h2>
+
+<img src="photo.png" id="lovePhoto">
+
+<h2 id="timer">❤️You are my always and forever. 💖❤️</h2>
+</div>
+
+<audio id="bgMusic" loop>
+<source src="romantic.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
